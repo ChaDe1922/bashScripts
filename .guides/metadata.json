@@ -1,0 +1,132 @@
+{
+ "sections": [
+  {
+   "id": "6621d460-c03b-a2af-7598-0af3db2cb011",
+   "title": "Overview",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Overview-6621.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7fa57efc-a5f7-3cdd-609c-56d98119be75",
+   "title": "Intro to GitHub Actions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Intro-to-GitHub-Actions-7fa5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ea7297b3-c088-b987-0630-e9da008c9dc4",
+   "title": "Workflows",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Workflows-ea72.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e542d066-481a-9213-d964-24fa6224d719",
+   "title": "Triggering Actions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Triggering-Actions-e542.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "06fee712-9b54-c1db-9953-ea61908267d3",
+   "title": "Jobs",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Jobs-06fe.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "11e44246-6a14-125b-54dd-e863810319a5",
+   "title": "Expressions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Expressions-11e4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d666b28d-5aed-3a86-37a5-2c7914ce92fa",
+   "title": "Secrets",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Secrets-d666.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "61ba54ac-f78d-12a2-b68a-73a1d81b0a3d",
+   "title": "Using GitHub Actions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Using-GitHub-Actions-61ba.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

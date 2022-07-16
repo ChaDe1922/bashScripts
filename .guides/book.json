@@ -1,0 +1,53 @@
+{
+ "name": "Bash Programming",
+ "children": [
+  {
+   "title": "Overview",
+   "id": "a1b3e3ea-c7df-9b43-c9e7-f31a078679ca",
+   "type": "page",
+   "pageId": "6621d460-c03b-a2af-7598-0af3db2cb011"
+  },
+  {
+   "id": "01080cb3-99a7-4fae-fd43-25bd0debeb8b",
+   "title": "Intro to GitHub Actions",
+   "pageId": "7fa57efc-a5f7-3cdd-609c-56d98119be75",
+   "type": "page"
+  },
+  {
+   "id": "4059e2ad-6997-4db5-5f9f-91e95776a5e9",
+   "title": "Workflows",
+   "pageId": "ea7297b3-c088-b987-0630-e9da008c9dc4",
+   "type": "page"
+  },
+  {
+   "id": "29fdca0c-cc58-c5ad-8aa6-7d32900a54f2",
+   "title": "Triggering Actions",
+   "pageId": "e542d066-481a-9213-d964-24fa6224d719",
+   "type": "page"
+  },
+  {
+   "id": "9bd98529-3c57-7124-3723-f70cdc7a771d",
+   "title": "Jobs",
+   "pageId": "06fee712-9b54-c1db-9953-ea61908267d3",
+   "type": "page"
+  },
+  {
+   "id": "0fbe6e20-9e81-707d-2bf0-43b447866c63",
+   "title": "Expressions",
+   "pageId": "11e44246-6a14-125b-54dd-e863810319a5",
+   "type": "page"
+  },
+  {
+   "id": "63ee0ba8-3021-bbfc-ca66-bcd7cb900891",
+   "title": "Secrets",
+   "pageId": "d666b28d-5aed-3a86-37a5-2c7914ce92fa",
+   "type": "page"
+  },
+  {
+   "id": "2ae059d9-ab62-0015-dee9-d1f4e7cf354c",
+   "title": "Using GitHub Actions",
+   "pageId": "61ba54ac-f78d-12a2-b68a-73a1d81b0a3d",
+   "type": "page"
+  }
+ ]
+}

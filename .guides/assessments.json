@@ -1,0 +1,626 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-3375050969",
+  "source": {
+   "name": "Creating a bash script",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "command": "bash .guides/bashtests/create-bash.sh",
+   "timeoutSeconds": 40,
+   "guidance": "In the terminal, convert the `newbash` script into an executable.\n- `chmod +x newbash`\n\nThen, run the executable.`\n- `./newbash`",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2946724224",
+  "source": {
+   "name": "Bash Programming: Comparing Values",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "79e72d1d-93e9-1ed3-44e6-57e317b0a90d",
+     "correct": false,
+     "answer": "`[12-eq12]; echo $?`"
+    },
+    {
+     "_id": "c5a0353c-896e-cbde-7775-b6a532faba06",
+     "correct": false,
+     "answer": "`[ 12 -eq 16 ]; echo $?`"
+    },
+    {
+     "_id": "308186e7-0369-f58f-476c-ac131192edc5",
+     "correct": true,
+     "answer": "`[ 12 -eq 12 ]; echo $?`"
+    },
+    {
+     "_id": "6397f8e1-15c5-ae56-8562-da71aa37dcc6",
+     "correct": false,
+     "answer": "`[ 12 -gt 16 ]; echo $?`"
+    }
+   ],
+   "guidance": "[12-eq12]; echo $? (No. Spacing is very important when coding in Bash.)\n\n[ 12 -eq 16 ]; echo $? (No. This statement is False (1).)\n\n**[ 12 -eq 12 ]; echo $? (Yes. This statement is True (0).)**\n\n\n[ 12 -gt 16 ]; echo $? (No. This statement is False (1).)",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1788036168",
+  "source": {
+   "name": "Bash Programming: Extended Test",
+   "showName": false,
+   "instructions": "Select your response and click the button below to submit.",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "1153679d-48e3-97cb-28d4-eff21ff79948",
+     "correct": false,
+     "answer": "`$( $c -lt $d )`"
+    },
+    {
+     "_id": "7926d034-cd78-4f3e-01e7-100b3bc86650",
+     "correct": true,
+     "answer": "`[[ $c -lt $d && $d -gt 0 ]]`"
+    },
+    {
+     "_id": "c7500ac0-c66e-be47-0a24-085f22df3489",
+     "correct": false,
+     "answer": "`$(( $c -lt $d ))`"
+    },
+    {
+     "_id": "0046ae28-4568-eb45-1a09-b36320315f6c",
+     "correct": false,
+     "answer": "`[ $c -lt $d ]`"
+    }
+   ],
+   "guidance": "The usage of double brackets indicates that this is an extended test. Furthermore, an extended test allows us to use several evaluations at the same time.",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 2,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2414042882",
+  "source": {
+   "name": "Bash Programming: Arrays",
+   "showName": false,
+   "instructions": "Select your response and click the button below to submit.",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "74954aeb-fa5f-f756-0bc6-48acc2055a18",
+     "correct": false,
+     "answer": "static arrays and dynamic arrays."
+    },
+    {
+     "_id": "f9e2e5da-d25e-da6a-587b-f475f37a514f",
+     "correct": true,
+     "answer": "indexed arrays and associative arrays."
+    },
+    {
+     "_id": "5df07a0c-f826-83dc-39ac-ac906b537ed0",
+     "correct": false,
+     "answer": "linear arrays and circular arrays."
+    },
+    {
+     "_id": "5e893126-67e0-a5d6-8692-b3f7bd805707",
+     "correct": false,
+     "answer": "scripted and non-scripted tables."
+    }
+   ],
+   "guidance": "Indexed arrays allow us to access array elements using their index number, whereas associative arrays use an alphanumeric key to access array elements.",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1163214757",
+  "source": {
+   "name": "Arrays",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "showValues": true,
+   "text": "In Bash, <<<associative arrays>>> elements are identified with key,value pairs, while <<<indexed arrays>>> identify elements by their positional index number.",
+   "distractors": "static arrays\nscripted arrays\ndynamic arrays",
+   "guidance": "In Bash, **associative arrays** elements are identified with key,value pairs, while **indexed arrays** identify elements by their positional index number.\n\nIndexed arrays allow us to access array elements using their index number, whereas associative arrays use an alphanumeric key to access array elements.\n\n",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "associative arrays",
+     "indexed arrays"
+    ],
+    "text": [
+     "In Bash, ",
+     0,
+     " elements are identified with key,value pairs, while ",
+     0,
+     " identify elements by their positional index number."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3018510902",
+  "source": {
+   "name": "echo",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "command": "bash .guides/bashtests/echoTest.sh",
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 0,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "script .guides/bashtests/example_session.txt; clear"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1295616176",
+  "source": {
+   "name": "echo 2",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "showValues": true,
+   "text": "| Term                |Description                                                                |\n|---------------------|---------------------------------------------------------------------------|\n| <<<Single Quotes>>> | Sometimes called \"strong quotations\", these suggest that the content inside the quotes should be taken literally, exactly as it is, so Bash won't try to interpret it. |\n| <<<No Quotes>>>     | These cause Bash to interpret each section of the command as it is read.  |\n| <<<Double Quotes>>> | These are used for mixing literal text with other values, so Bash still tries to understand substitutions, expansions, evaluations, variables.                      |\n\n",
+   "distractors": "Parenthesis\nDollar Signs",
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "Single Quotes",
+     "No Quotes",
+     "Double Quotes"
+    ],
+    "text": [
+     "| Term                |Description                                                                |\n|---------------------|---------------------------------------------------------------------------|\n| ",
+     0,
+     " | Sometimes called \"strong quotations\", these suggest that the content inside the quotes should be taken literally, exactly as it is, so Bash won't try to interpret it. |\n| ",
+     0,
+     "     | These cause Bash to interpret each section of the command as it is read.  |\n| ",
+     0,
+     " | These are used for mixing literal text with other values, so Bash still tries to understand substitutions, expansions, evaluations, variables.                      |\n\n"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3193219397",
+  "source": {
+   "name": "Variables",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "command": "bash .guides/bashtests/variableTest.sh",
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "variable.sh"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "variable.sh"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2977363943",
+  "source": {
+   "name": "Numbers and Arithmetic",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "command": "bash .guides/bashtests/numbersTest.sh",
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3201622276",
+  "source": {
+   "name": "Formatting Output",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "showValues": true,
+   "text": "| Command                                      | Output                                      |\n|----------------------------------------------|---------------------------------------------|\n| <<<printf \"%d and %d are even.\\n\" 2 4>>>   | ![even output](.guides/img/even.png)        |\n| <<<echo -e \"State\\nCapital\\nPopulation\">>> | ![newline output](.guides/img/newline.png)  |\n| <<<printf \"%d and %d are odd.\\n\" 1 3>>>    | ![odd output](.guides/img/odd.png)          |\n| <<<echo -e \"State\\tCapital\\tPopulation\">>> | ![tab output](.guides/img/tab.png)          |\n",
+   "distractors": "printf \"%d and %d are even.\\n\" 4 2\nprintf \"%d and %d are odd.\\n\" 3 1",
+   "guidance": "| Command                                      | Output                                      |\n|----------------------------------------------|---------------------------------------------|\n| **`printf \"%d and %d are even.\\n\" 2 4`**   | ![even output](.guides/img/even.png)        |\n| **`echo -e \"State\\nCapital\\nPopulation\"`** | ![newline output](.guides/img/newline.png)  |\n| **`printf \"%d and %d are odd.\\n\" 1 3`**    | ![odd output](.guides/img/odd.png)          |\n| **`echo -e \"State\\tCapital\\tPopulation\"`** | ![tab output](.guides/img/tab.png)          |\n",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://alvinalexander.com/programming/printf-format-cheat-sheet/"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "printf \"%d and %d are even.\\n\" 2 4",
+     "echo -e \"State\\nCapital\\nPopulation\"",
+     "printf \"%d and %d are odd.\\n\" 1 3",
+     "echo -e \"State\\tCapital\\tPopulation\""
+    ],
+    "text": [
+     "| Command                                      | Output                                      |\n|----------------------------------------------|---------------------------------------------|\n| ",
+     0,
+     "   | ![even output](.guides/img/even.png)        |\n| ",
+     0,
+     " | ![newline output](.guides/img/newline.png)  |\n| ",
+     0,
+     "    | ![odd output](.guides/img/odd.png)          |\n| ",
+     0,
+     " | ![tab output](.guides/img/tab.png)          |\n"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-219702997",
+  "source": {
+   "name": "Challenge 2.1",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "command": "bash .guides/bashtests/sysReportTest.sh",
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://alvinalexander.com/programming/printf-format-cheat-sheet/"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2977662792",
+  "source": {
+   "name": "Challenge 2.2",
+   "showName": false,
+   "instructions": "Click the button below to submit.",
+   "command": "bash .guides/bashtests/arrayTest.sh",
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Attempts",
+    "passedFrom": 2
+   },
+   "maxAttemptsCount": 2,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Scripting Fundamentals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Bash"
+     },
+     {
+      "name": "Category",
+      "value": "Bash Programming"
+     }
+    ],
+    "files": [
+     "evenOrOdd.sh",
+     ".guides/bashtests/activeVariables.txt",
+     ".guides/bashtests/arrayTest.sh",
+     ".guides/bashtests/create-bash.sh",
+     ".guides/bashtests/create-bash.txt",
+     ".guides/bashtests/echo_checkfile",
+     ".guides/bashtests/echoTest.sh",
+     ".guides/bashtests/example_session.txt",
+     ".guides/bashtests/function.sh",
+     ".guides/bashtests/math_checkfile",
+     ".guides/bashtests/numbersTest.sh",
+     ".guides/bashtests/sysReportTest.sh",
+     ".guides/bashtests/variableTest.sh"
+    ],
+    "layout": "3-cell",
+    "pageTitle": "Challenge 2",
+    "buttonText": "Check It!",
+    "content": "##\n### Write a script that holds an array of values and compares them in the following ways.\n#\n- **In the script to the left, `evenOrOdd.sh`**\n- **Declare two arrays:**\n  - Declare one array called `even` containing all of the even numbers $1-10)$\n  - Declare one array called `odd` containing all of the odd numbers $1-10)$\n\n- **Write a command to test if the 3rd element of the `even` array is greater than the 3rd element of the `odd` array and print the boolean result of the test**\n\n- **Write a command to test if the 4th element of `even` plus the 3rd element of `odd` is greater than 10.**\n    - Use the extended test AND operator `&&` and the `echo` command to display `This is larger than 10` if this test passes.\n\n\n\n<<<<<library-assessment>>>>>\n",
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "evenOrOdd.sh"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": "clear"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT Create and compare arrays"
+  },
+  "linkedId": "42b7bf58-cc12-45b2-86f0-cf81304f7ed0",
+  "libraryId": "e7baf97d-0347-4842-88f3-373c276fba2c",
+  "version": 0
+ }
+]
