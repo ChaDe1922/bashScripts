@@ -39,13 +39,15 @@ jobs:
           echo "Now ending build workflow."
           echo "Have a great day!"
           
-  step_info:
+  github_info:
     runs-on: ubuntu-latest
     steps:
         - env:
-            STEPS_CONTEXT: ${{ toJson(steps) }}
-          run: echo "$STEPS_CONTEXT"
-          
+            GITHUB_CONTEXT: ${{ toJson(github) }}
+          run: |
+            echo Triggered Event: ${{ github.event_name }}
+            echo Current Repository: ${{ github.repository }}
+            echo "$GITHUB_CONTEXT"
           
   repo_forked:
 
